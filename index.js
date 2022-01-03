@@ -455,8 +455,7 @@ switch (command) {
  case 'menu': 
  case 'help':
 	case 'm':
-    capt = `────  *𝕭𝖊𝖑𝖈𝖊𝖇𝖚*  ────
-    
+    capt = `────  *𝕭𝖊𝖑𝖈𝖊𝖇𝖚*  ────   
 ${msg.hi} *${pushname}* ${ucapanWaktu}
     
 ⎔ *${msg.lvl}* : ${isLevel}
@@ -464,7 +463,7 @@ ${msg.hi} *${pushname}* ${ucapanWaktu}
 ${readMore}
 ${menu(prefix)} 
 `
-    Fg.send3ButtonLoc(from, thumbfg, capt, `▢ *𝕭𝖊𝖑𝖈𝖊𝖇𝖚*\n▢ *Total Hits* : ${isTotalcmd}\n▢ *Usuarios* : ${User.length}\n▢ *Runtime* : ${kyun(process.uptime())}\n\n𝕭𝖊𝖑𝖈𝖊𝖇𝖚`, `⦙☰ Menu Vc`, `${prefix}menuvc`, '✆ Owner', `${prefix}owner`, '⏍ Info', `${prefix}info`)
+    Fg.send3ButtonLoc(from, thumbfg, capt, `▢ *𝕭𝖊𝖑𝖈𝖊𝖇𝖚*\n▢ *Total Hits* : ${isTotalcmd}\n▢ *Usuarios* : ${User.length}\n▢ *Runtime* : ${kyun(process.uptime())}\n\n𝕭𝖊𝖑𝖈𝖊𝖇𝖚\nhttps://www.instagram.com/_duba_n`, `⦙☰ Menu Vc`, `${prefix}menuvc`, '✆ Owner', `${prefix}owner`, '⏍ Info', `${prefix}info`)
     break
     
     case 'menuvc': 
@@ -479,14 +478,14 @@ ${readMore}
 *VOICE COMMAND* ${msg.vnCmd(prefix)} 
 ${menuVC} 
 `
-    Fg.send3ButtonLoc(from, thumbfg, capt, `▢ *𝕭𝖊𝖑𝖈𝖊𝖇𝖚*\n▢ *Total Hits* : ${isTotalcmd}\n▢ *Usuarios* : ${User.length}\n▢ *Runtime* : ${kyun(process.uptime())}\n\n𝕭𝖊𝖑𝖈𝖊𝖇𝖚`, '✆ Owner', `${prefix}owner`, '⏍ Info', `${prefix}info`, `⌬ ${msg.gp}s`, `${prefix}grupos`)
+    Fg.send3ButtonLoc(from, thumbfg, capt, `▢ *𝕭𝖊𝖑𝖈𝖊𝖇𝖚*\n▢ *Total Hits* : ${isTotalcmd}\n▢ *Usuarios* : ${User.length}\n▢ *Runtime* : ${kyun(process.uptime())}\n\n𝕭𝖊𝖑𝖈𝖊𝖇𝖚\nhttps://www.instagram.com/_duba_n`, '✆ Owner', `${prefix}owner`, '⏍ Info', `${prefix}info`, `⌬ ${msg.gp}s`, `${prefix}grupos`)
     break 
     
     case 'grupos': 
     case 'groups': 
     case 'dylux': 
     gps = `
-≡  *DyLux  ┃ ᴮᴼᵀ*  GRUPOS
+≡  *ᴮᴼᵀ*  GRUPOS
 
 ▢ ${msg.gp} 1
 𝕭𝖊𝖑𝖈𝖊𝖇𝖚
@@ -496,7 +495,7 @@ break
 
 case 'donate':
 case 'donar':
- m.reply('xD') 
+ m.reply('https://www.instagram.com/_duba_n') 
 break
  
   case 'ping':
@@ -534,8 +533,8 @@ case 'creador':
 case 'developer':
 number = '64273224722@s.whatsapp.net'
     capt = `▢ ${msg.num} : @${number.split('@')[0]}\n\n`
-    capt += '▢ Instagram : https://www.instagram.com/'
-    await Fg.fakeLink(from, capt, thumbfg, `${msg.click}`, 'https://www.instagram.com/', mek)
+    capt += '▢ Instagram : https://www.instagram.com/_duba_n'
+    await Fg.fakeLink(from, capt, thumbfg, `${msg.click}`, 'https://www.instagram.com/_duba_n', mek)
    Fg.sendContact(from, '64273224722', '𝕭𝖊𝖑𝖈𝖊𝖇𝖚', mek) 
     break
     
@@ -564,6 +563,7 @@ number = '64273224722@s.whatsapp.net'
 ▢ Versi Wa : ${Fg.user.phone.wa_version}
 *≡ OWNER*
 ▢ WhatsApp : https://wa.me/64273224722
+▢ https://www.instagram.com/_duba_n
 ` 
 Fg.send2Button(from, teks, '𝕭𝖊𝖑𝖈𝖊𝖇𝖚', `𝕭𝖊𝖑𝖈𝖊𝖇𝖚`, `${prefix}donate`, `⌬ ${msg.gp}s`, `${prefix}grupos`)
    break
