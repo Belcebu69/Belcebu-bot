@@ -10,7 +10,7 @@ CFonts.say('BELCEBU', {
   align: 'center',
   gradient: ['red', 'magenta']
 })
-CFonts.say(`BELCEBU-BOT`, {
+CFonts.say(`BELCEBUBOT`, {
   font: 'console',
   align: 'center',
   colors: ['yellow']
