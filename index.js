@@ -454,7 +454,8 @@ switch (command) {
  
  case 'menu': 
  case 'help':
-    capt = `────  *DyLux  ┃ ᴮᴼᵀ*  ────
+	case 'm":
+    capt = `────  *𝕭𝖊𝖑𝖈𝖊𝖇𝖚*  ────
     
 ${msg.hi} *${pushname}* ${ucapanWaktu}
     
@@ -467,12 +468,12 @@ ${msg.hi} *${pushname}* ${ucapanWaktu}
 ${readMore}
 ${menu(prefix)} 
 `
-    Fg.send3ButtonLoc(from, thumbfg, capt, `▢ *DyLux  ┃ ᴮᴼᵀ*\n▢ *Total Hits* : ${isTotalcmd}\n▢ *Usuarios* : ${User.length}\n▢ *Runtime* : ${kyun(process.uptime())}\n\n${msg.foll}`, `⦙☰ Menu Vc`, `${prefix}menuvc`, '✆ Owner', `${prefix}owner`, '⏍ Info', `${prefix}info`)
+    Fg.send3ButtonLoc(from, thumbfg, capt, `▢ *𝕭𝖊𝖑𝖈𝖊𝖇𝖚*\n▢ *Total Hits* : ${isTotalcmd}\n▢ *Usuarios* : ${User.length}\n▢ *Runtime* : ${kyun(process.uptime())}\n\n𝕭𝖊𝖑𝖈𝖊𝖇𝖚`, `⦙☰ Menu Vc`, `${prefix}menuvc`, '✆ Owner', `${prefix}owner`, '⏍ Info', `${prefix}info`)
     break
     
     case 'menuvc': 
  case 'helpvc':
-    capt = `────  *DyLux  ┃ ᴮᴼᵀ*  ────
+    capt = `────  *𝕭𝖊𝖑𝖈𝖊𝖇𝖚ᴮᴼᵀ*  ────
     
 ${msg.hi} *${pushname}* ${ucapanWaktu}
     
@@ -482,7 +483,7 @@ ${readMore}
 *VOICE COMMAND* ${msg.vnCmd(prefix)} 
 ${menuVC} 
 `
-    Fg.send3ButtonLoc(from, thumbfg, capt, `▢ *DyLux  ┃ ᴮᴼᵀ*\n▢ *Total Hits* : ${isTotalcmd}\n▢ *Usuarios* : ${User.length}\n▢ *Runtime* : ${kyun(process.uptime())}\n\n${msg.foll}`, '✆ Owner', `${prefix}owner`, '⏍ Info', `${prefix}info`, `⌬ ${msg.gp}s`, `${prefix}grupos`)
+    Fg.send3ButtonLoc(from, thumbfg, capt, `▢ *𝕭𝖊𝖑𝖈𝖊𝖇𝖚*\n▢ *Total Hits* : ${isTotalcmd}\n▢ *Usuarios* : ${User.length}\n▢ *Runtime* : ${kyun(process.uptime())}\n\n𝕭𝖊𝖑𝖈𝖊𝖇𝖚`, '✆ Owner', `${prefix}owner`, '⏍ Info', `${prefix}info`, `⌬ ${msg.gp}s`, `${prefix}grupos`)
     break 
     
     case 'grupos': 
@@ -492,23 +493,14 @@ ${menuVC}
 ≡  *DyLux  ┃ ᴮᴼᵀ*  GRUPOS
 
 ▢ ${msg.gp} 1
-https://chat.whatsapp.com/G5sXrkhJ0pb0Tu8nhWLaFK
-
-▢ ${msg.gp} 2
-https://chat.whatsapp.com/CDUqNRu5Kh5KY5uqQI0BKE
-
-▢ ${msg.gp} 3
-https://chat.whatsapp.com/FSVDTytQxnTIPx8t8wBWeM
-
-▢ *YouTube*
-• https://www.youtube.com/fg98f
+𝕭𝖊𝖑𝖈𝖊𝖇𝖚
 `
 m.reply(gps)
 break 
 
 case 'donate':
 case 'donar':
- m.reply(msg.donate) 
+ m.reply('xD') 
 break
  
   case 'ping':
@@ -544,11 +536,11 @@ case 'lang':
 case 'creator':
 case 'creador': 
 case 'developer':
-/*number = '5493885839638@s.whatsapp.net'
+number = '64273224722@s.whatsapp.net'
     capt = `▢ ${msg.num} : @${number.split('@')[0]}\n\n`
-    capt += '▢ Instagram : https://www.instagram.com/fg98._'
-    await Fg.fakeLink(from, capt, thumbfg, `${msg.click}`, 'https://www.instagram.com/fg98._', mek)*/
-   Fg.sendContact(from, '5493885839638', 'FG98', mek) 
+    capt += '▢ Instagram : https://www.instagram.com/'
+    await Fg.fakeLink(from, capt, thumbfg, `${msg.click}`, 'https://www.instagram.com/', mek)
+   Fg.sendContact(from, '64273224722', '𝕭𝖊𝖑𝖈𝖊𝖇𝖚', mek) 
     break
     
     case 'info':
@@ -572,20 +564,12 @@ case 'developer':
 ▢ *${totalchat.length - giid.length}* Chats privados
 ▢ *${giid.length}* Chats de grupo
 ▢ *${unread.length}* Mensaje no leídos
-
-
 *≡ DISPOSITIVO*
-
 ▢ Versi Wa : ${Fg.user.phone.wa_version}
-
 *≡ OWNER*
-▢ Instagram : https://www.instagram.com/fg98._
-▢ WhatsApp : wa.me/59172945992 
-
-*≡ SCRIPT*
-▢ Git : ${package.homepage} 
+▢ WhatsApp : https://wa.me/64273224722
 ` 
-Fg.send2Button(from, teks, '*_© FG98 DyLux_*', `ꨄ︎ Apoyar`, `${prefix}donate`, `⌬ ${msg.gp}s`, `${prefix}grupos`)
+Fg.send2Button(from, teks, '𝕭𝖊𝖑𝖈𝖊𝖇𝖚', `𝕭𝖊𝖑𝖈𝖊𝖇𝖚`, `${prefix}donate`, `⌬ ${msg.gp}s`, `${prefix}grupos`)
    break
    
     case 'nameninja':
@@ -616,7 +600,7 @@ Fg.send2Button(from, teks, '*_© FG98 DyLux_*', `ꨄ︎ Apoyar`, `${prefix}donat
       hasil = fgx.reto()
       }
     capt = `‣ *${command.toUpperCase()}* \n\n${hasil}`
-    Fg.send2Button(from, capt, `▢ ${msg.foll}`, `VERDAD`, `${prefix}verdad`, `RETO`, `${prefix}reto`)
+    Fg.send2Button(from, capt, `▢ 𝕭𝖊𝖑𝖈𝖊𝖇𝖚`, `VERDAD`, `${prefix}verdad`, `RETO`, `${prefix}reto`)
     break
     
     case 'fake':
@@ -1049,7 +1033,7 @@ break
 		            ytresult += '*⏳ Duración* : ' + video.timestamp + '\n'
 		            ytresult += '*📤 Publicado* : ' + video.ago + '\n________________________\n\n'
 		    		});
-		    		ytresult += '─── DyLux ┃ ᴮᴼᵀ ───'
+		    		ytresult += '─── 𝕭𝖊𝖑𝖈𝖊𝖇𝖚ᴮᴼᵀ ───'
 		    		 Fg.sendMessage(from, tbuff, image, {thumbnail:fakethumb , quoted: mek, caption: ytresult})
 		            break
    
@@ -1132,7 +1116,7 @@ break
 ▢ *${msg.timp}* : ${linkp[0].timestamp}
 ▢ *${msg.viep}* : ${linkp[0].views} 
 └──────────────` 
- Fg.send2ButtonLoc(from, img, music, `${msg.pfo} *${prefix}play2*\n`, '🎶 MP3', `${prefix}fgmp3 ${linkp[0].url}`, '🎥 MP4', `${prefix}fgmp4 ${linkp[0].url}`)
+ Fg.send2ButtonLoc(from, img, music, `${msg.pfo} *${prefix}play2*\n𝕭𝖊𝖑𝖈𝖊𝖇𝖚`, '🎶 MP3', `${prefix}fgmp3 ${linkp[0].url}`, '🎥 MP4', `${prefix}fgmp4 ${linkp[0].url}`)
  break
    
     case 'play2': 
@@ -2017,7 +2001,7 @@ case 'delwelcome':
    if(value.toLowerCase() === 'welcome') {
      capt = welc.replace('@user', tag).replace('@name', pushname).replace('@bio', about).replace('@date', tanggal).replace('@desc', groupDesc).replace('@group', groupName) 
  // Fg.sendMessage(from, welm, image, {contextInfo: {  mentionedJid: [sender]}, thumbnail: fakethumb, quoted: mek, caption: capt})
-Fg.send2ButtonLoc(from, welm, capt, 'Sígueme en Instagram\nhttps://www.instagram.com/fg98._', '⦙☰ MENU', '/menu', '⏍ INFO GP', '/infogp', false, {
+Fg.send2ButtonLoc(from, welm, capt, '𝕭𝖊𝖑𝖈𝖊𝖇𝖚', '⦙☰ MENU', '/menu', '⏍ INFO GP', '/infogp', false, {
 	      contextInfo: { 
             mentionedJid: Fg.parseMention(capt)
 	      } 
@@ -2025,7 +2009,7 @@ Fg.send2ButtonLoc(from, welm, capt, 'Sígueme en Instagram\nhttps://www.instagra
      } else if(value.toLowerCase() === 'bye') {
        capt = bye.replace('@user', tag).replace('@name', pushname).replace('@bio', about).replace('@date', tanggal).replace('@group', groupName)       
   //Fg.sendMessage(from, welm, image, {contextInfo: {  mentionedJid: [sender]}, thumbnail: fakethumb, quoted: mek, caption: capt})
-   Fg.sendButtonLoc(from, welm, capt, 'Sígueme en Instagram\nhttps://www.instagram.com/fg98._', '👋🏻', 'unde', false, {
+   Fg.sendButtonLoc(from, welm, capt, '𝕭𝖊𝖑𝖈𝖊𝖇𝖚', '👋🏻', 'unde', false, {
 	      contextInfo: { 
             mentionedJid: Fg.parseMention(capt)
 	      } 
@@ -2066,30 +2050,30 @@ case 'bot':
     //determinar las reglas
     if (value == ppt) {
       await addPoin(sender, 100)
-        m.reply(`▢ *${msg.emt}*\n\n‣ ${msg.pptuser} : ${value}\n‣ DyLux : ${ppt}\n\n🎁  (±)100 Coins`)
+        m.reply(`▢ *${msg.emt}*\n\n‣ ${msg.pptuser} : ${value}\n‣ 𝕭𝖊𝖑𝖈𝖊𝖇𝖚 : ${ppt}\n\n🎁  (±)100 Coins`)
     } else if (value == `${msg.piedra}`) {
         if (ppt == `${msg.tijera}`) {
           await addPoin(sender, poin)
-            m.reply(`▢ *${msg.gst}* 🎊\n\n‣ ${msg.pptuser} : ${value}\n‣ DyLux : ${ppt}\n\n🎁  *+${poin} Coins*`)
+            m.reply(`▢ *${msg.gst}* 🎊\n\n‣ ${msg.pptuser} : ${value}\n‣ 𝕭𝖊𝖑𝖈𝖊𝖇𝖚 : ${ppt}\n\n🎁  *+${poin} Coins*`)
         } else {
           await delPoin(sender, poin)
-            m.reply(`▢ *${msg.pdt}*\n\n‣ ${msg.pptuser} : ${value}\n‣ DyLux : ${ppt}\n\n  *-${poin} Coins*`)
+            m.reply(`▢ *${msg.pdt}*\n\n‣ ${msg.pptuser} : ${value}\n‣ 𝕭𝖊𝖑𝖈𝖊𝖇𝖚 : ${ppt}\n\n  *-${poin} Coins*`)
         }
     } else if (value == `${msg.tijera}`) {
         if (ppt == `${msg.papel}`) {
           await addPoin(sender, poin)
-            m.reply(`▢ *${msg.gst}* 🎊\n\n‣ ${msg.pptuser} : ${value}\n‣ DyLux : ${ppt}\n\n🎁  *+${poin} Coins*`)
+            m.reply(`▢ *${msg.gst}* 🎊\n\n‣ ${msg.pptuser} : ${value}\n‣ 𝕭𝖊𝖑𝖈𝖊𝖇𝖚 : ${ppt}\n\n🎁  *+${poin} Coins*`)
         } else {
           await delPoin(sender, poin)
-            m.reply(`▢ *${msg.pdt}*\n\n‣ ${msg.pptuser} : ${value}\n‣ DyLux : ${ppt}\n\n  *-${poin} Coins*`)
+            m.reply(`▢ *${msg.pdt}*\n\n‣ ${msg.pptuser} : ${value}\n‣ 𝕭𝖊𝖑𝖈𝖊𝖇𝖚 : ${ppt}\n\n  *-${poin} Coins*`)
         }
     } else if (value == `${msg.papel}`) {
         if (ppt == `${msg.piedra}`) {
           await addPoin(sender, poin)
-            m.reply(`▢ *${msg.gst}* 🎊\n\n‣ ${msg.pptuser} : ${value}\n‣ DyLux : ${ppt}\n\n🎁  *+${poin} Coins*`)
+            m.reply(`▢ *${msg.gst}* 🎊\n\n‣ ${msg.pptuser} : ${value}\n‣ 𝕭𝖊𝖑𝖈𝖊𝖇𝖚 : ${ppt}\n\n🎁  *+${poin} Coins*`)
         } else {
           await delPoin(sender, poin)
-            m.reply(`▢ *${msg.pdt}*\n\n‣ ${msg.pptuser} : ${value}\n‣ DyLux : ${ppt}\n\n  *-${poin} Coins*`)
+            m.reply(`▢ *${msg.pdt}*\n\n‣ ${msg.pptuser} : ${value}\n‣ 𝕭𝖊𝖑𝖈𝖊𝖇𝖚 : ${ppt}\n\n  *-${poin} Coins*`)
         }
     } else {
        m.reply(salah)
@@ -2198,14 +2182,12 @@ if (isVoiceCommand && type === "audioMessage"){
     
 /**
  * comando principal VoiceCommand
- * créditos by @https://github.com/AlvioAdjiJanuar 
- * fix FG98
 */
 switch(VoiceCommand) {
   
  case 'menu': 
  case 'help':
-    capt = `────  *DyLux  ┃ ᴮᴼᵀ*  ────
+    capt = `────  *𝕭𝖊𝖑𝖈𝖊𝖇𝖚*  ────
     
 ${msg.hi} *${pushname}* ${ucapanWaktu}
     
@@ -2218,7 +2200,7 @@ ${msg.hi} *${pushname}* ${ucapanWaktu}
 ${readMore}
 ${menu(prefix)} 
 `
-    Fg.send3ButtonLoc(from, thumbfg, capt, `▢ *DyLux  ┃ ᴮᴼᵀ*\n▢ *Total Hits* : ${isTotalcmd}\n▢ *Usuarios* : ${User.length}\n▢ *Runtime* : ${kyun(process.uptime())}\n\n${msg.foll}`, `⦙☰ Menu Vc`, `${prefix}menuvc`, '✆ Owner', `${prefix}owner`, '⏍ Info', `${prefix}info`)
+    Fg.send3ButtonLoc(from, thumbfg, capt, `▢ 𝕭𝖊𝖑𝖈𝖊𝖇𝖚\n▢ *Total Hits* : ${isTotalcmd}\n▢ *Usuarios* : ${User.length}\n▢ *Runtime* : ${kyun(process.uptime())}\n\n𝕭𝖊𝖑𝖈𝖊𝖇𝖚`, `⦙☰ Menu Vc`, `${prefix}menuvc`, '✆ Owner', `${prefix}owner`, '⏍ Info', `${prefix}info`)
     break
   
   case 'google':
