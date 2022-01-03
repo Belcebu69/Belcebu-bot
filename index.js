@@ -454,17 +454,13 @@ switch (command) {
  
  case 'menu': 
  case 'help':
-	case 'm":
+	case 'm':
     capt = `────  *𝕭𝖊𝖑𝖈𝖊𝖇𝖚*  ────
     
 ${msg.hi} *${pushname}* ${ucapanWaktu}
     
 ⎔ *${msg.lvl}* : ${isLevel}
 ⎔ *Premium* : ${prem}
-
-▢ ${msg.cretb}
-• https://youtu.be/F4lGWb1WXgM 
-
 ${readMore}
 ${menu(prefix)} 
 `
