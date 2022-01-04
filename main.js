@@ -53,7 +53,7 @@ async function starts() {
       try {
 	      ppimg = await Fg.getProfilePicture(`${anu.participants[0].split('@')[0]}@c.us`);
 	    } catch {
-	      ppimg = 'https://i.ibb.co/PZNv21q/Profile-FG98.jpg';
+	      ppimg = 'https://telegra.ph/file/7b27d60749776fd651843.jpg';
 	    } 
 	
       mdata = await Fg.groupMetadata(anu.jid);
@@ -101,7 +101,7 @@ Fg.on('group-participants-update', async (anu) => {
   try {
 	      ppimg = await Fg.getProfilePicture(`${anu.participants[0].split('@')[0]}@c.us`);
 	    } catch {
-	      ppimg = 'https://i.ibb.co/PZNv21q/Profile-FG98.jpg';
+	      ppimg = 'https://telegra.ph/file/7b27d60749776fd651843.jpg';
 	    } 
 	
   if (anu.action == 'promote') {
