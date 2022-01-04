@@ -4,14 +4,9 @@ const Wel = JSON.parse(fs.readFileSync('./database/welcome.json'));
 const welAwal = `Hola @user 
 Bienvenidx a *@group*
 
-▢ Preséntate.
-~Foto.
-~Nombre.
-~Edad. 
-~País.
-     Lee las reglas.`;
+▢ Preséntate.\n~Foto.\n~Nombre.\n~Edad.\n~País.\n~Lee las reglas.`;
 
-const byeAwal = `Adiós *@user*`;
+const byeAwal = `Adiós oe *@user*`;
 /**
  * Add welcome text to db
  * @param {string} chatId
