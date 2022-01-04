@@ -2,9 +2,14 @@ const fs = require("fs");
 const Wel = JSON.parse(fs.readFileSync('./database/welcome.json'));
 
 const welAwal = `Hola @user 
-Bienvenido(a)  al grupo *@group*
+Bienvenidx a *@group*
 
-▢ No olvide leer las reglas del grupo :v`;
+▢ Preséntate.
+~Foto.
+~Nombre.
+~Edad. 
+~País.
+     Lee las reglas.`;
 
 const byeAwal = `Adiós *@user*`;
 /**
